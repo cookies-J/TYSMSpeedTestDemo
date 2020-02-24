@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MLSpeedTest.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    MLSpeedTest *test = [[MLSpeedTest alloc] initWithQueue:nil];
+    [test prepareTestServer:^{
+        [test startTestLatency:^{
+            [test startTestDownload:^{
+                [test startTestUpload:^{
+                }];
+            }];
+        }];
+    }];
     // Do any additional setup after loading the view.
 }
 

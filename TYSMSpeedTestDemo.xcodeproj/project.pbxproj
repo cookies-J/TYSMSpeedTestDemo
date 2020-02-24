@@ -14,6 +14,14 @@
 		1401D1D424034F08007A7FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1401D1D324034F08007A7FAF /* Assets.xcassets */; };
 		1401D1D724034F08007A7FAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1401D1D524034F08007A7FAF /* LaunchScreen.storyboard */; };
 		1401D1DA24034F08007A7FAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1401D1D924034F08007A7FAF /* main.m */; };
+		1401D1E524034F41007A7FAF /* MLSpeedTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1401D1E124034F41007A7FAF /* MLSpeedTestModel.m */; };
+		1401D1E624034F41007A7FAF /* MLSpeedTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1401D1E224034F41007A7FAF /* MLSpeedTest.m */; };
+		1401D1E824034F5D007A7FAF /* speedtest-servers-static.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1401D1E724034F5D007A7FAF /* speedtest-servers-static.xml */; };
+		1401D1EB24035A46007A7FAF /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1401D1EA24035A46007A7FAF /* XMLDictionary.m */; };
+		1401D1EE24035A60007A7FAF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1401D1ED24035A60007A7FAF /* CoreLocation.framework */; };
+		1401D1F124035B62007A7FAF /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1401D1F024035B62007A7FAF /* YYClassInfo.m */; };
+		1401D1F424035B71007A7FAF /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1401D1F324035B71007A7FAF /* NSObject+YYModel.m */; };
+		1401D1F724035BB1007A7FAF /* FCFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1401D1F524035BB0007A7FAF /* FCFileManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +37,20 @@
 		1401D1D624034F08007A7FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1401D1D824034F08007A7FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1401D1D924034F08007A7FAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1401D1E124034F41007A7FAF /* MLSpeedTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSpeedTestModel.m; sourceTree = "<group>"; };
+		1401D1E224034F41007A7FAF /* MLSpeedTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSpeedTest.m; sourceTree = "<group>"; };
+		1401D1E324034F41007A7FAF /* MLSpeedTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSpeedTestModel.h; sourceTree = "<group>"; };
+		1401D1E424034F41007A7FAF /* MLSpeedTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSpeedTest.h; sourceTree = "<group>"; };
+		1401D1E724034F5D007A7FAF /* speedtest-servers-static.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "speedtest-servers-static.xml"; sourceTree = "<group>"; };
+		1401D1E924035A46007A7FAF /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		1401D1EA24035A46007A7FAF /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		1401D1ED24035A60007A7FAF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1401D1EF24035B62007A7FAF /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		1401D1F024035B62007A7FAF /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		1401D1F224035B71007A7FAF /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		1401D1F324035B71007A7FAF /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		1401D1F524035BB0007A7FAF /* FCFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCFileManager.m; sourceTree = "<group>"; };
+		1401D1F624035BB0007A7FAF /* FCFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCFileManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1401D1EE24035A60007A7FAF /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +70,7 @@
 			children = (
 				1401D1C624034F07007A7FAF /* TYSMSpeedTestDemo */,
 				1401D1C524034F07007A7FAF /* Products */,
+				1401D1EC24035A60007A7FAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +85,15 @@
 		1401D1C624034F07007A7FAF /* TYSMSpeedTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1401D1F624035BB0007A7FAF /* FCFileManager.h */,
+				1401D1F524035BB0007A7FAF /* FCFileManager.m */,
+				1401D1F224035B71007A7FAF /* NSObject+YYModel.h */,
+				1401D1F324035B71007A7FAF /* NSObject+YYModel.m */,
+				1401D1EF24035B62007A7FAF /* YYClassInfo.h */,
+				1401D1F024035B62007A7FAF /* YYClassInfo.m */,
+				1401D1E924035A46007A7FAF /* XMLDictionary.h */,
+				1401D1EA24035A46007A7FAF /* XMLDictionary.m */,
+				1401D1E024034F41007A7FAF /* Speed */,
 				1401D1C724034F07007A7FAF /* AppDelegate.h */,
 				1401D1C824034F07007A7FAF /* AppDelegate.m */,
 				1401D1CA24034F07007A7FAF /* SceneDelegate.h */,
@@ -74,6 +107,26 @@
 				1401D1D924034F08007A7FAF /* main.m */,
 			);
 			path = TYSMSpeedTestDemo;
+			sourceTree = "<group>";
+		};
+		1401D1E024034F41007A7FAF /* Speed */ = {
+			isa = PBXGroup;
+			children = (
+				1401D1E424034F41007A7FAF /* MLSpeedTest.h */,
+				1401D1E224034F41007A7FAF /* MLSpeedTest.m */,
+				1401D1E324034F41007A7FAF /* MLSpeedTestModel.h */,
+				1401D1E124034F41007A7FAF /* MLSpeedTestModel.m */,
+				1401D1E724034F5D007A7FAF /* speedtest-servers-static.xml */,
+			);
+			path = Speed;
+			sourceTree = "<group>";
+		};
+		1401D1EC24035A60007A7FAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1401D1ED24035A60007A7FAF /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1401D1E824034F5D007A7FAF /* speedtest-servers-static.xml in Resources */,
 				1401D1D724034F08007A7FAF /* LaunchScreen.storyboard in Resources */,
 				1401D1D424034F08007A7FAF /* Assets.xcassets in Resources */,
 				1401D1D224034F07007A7FAF /* Main.storyboard in Resources */,
@@ -146,10 +200,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1401D1F424035B71007A7FAF /* NSObject+YYModel.m in Sources */,
 				1401D1CF24034F07007A7FAF /* ViewController.m in Sources */,
 				1401D1C924034F07007A7FAF /* AppDelegate.m in Sources */,
+				1401D1E624034F41007A7FAF /* MLSpeedTest.m in Sources */,
+				1401D1EB24035A46007A7FAF /* XMLDictionary.m in Sources */,
+				1401D1F124035B62007A7FAF /* YYClassInfo.m in Sources */,
+				1401D1F724035BB1007A7FAF /* FCFileManager.m in Sources */,
 				1401D1DA24034F08007A7FAF /* main.m in Sources */,
 				1401D1CC24034F07007A7FAF /* SceneDelegate.m in Sources */,
+				1401D1E524034F41007A7FAF /* MLSpeedTestModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
